@@ -1,0 +1,142 @@
+@media only screen and (max-width: 320px) {
+    .single-project-portfolio > img {
+        height: 200px;
+
+    }
+}
+
+
+@media only screen and (min-width: 768px){
+    .wrapper-nav-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;;
+        height: 30px;
+    }
+
+    .nav-button {
+        width: 20%;
+        margin: 0 10px;
+    }
+
+    .wrapper-profile {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    img#picture-profile {
+        order: 3;
+        margin-left: 20px;
+    }
+
+    #picture-profile {
+        flex: 0.9
+    }
+
+    .wrapper-profile div {
+        flex: 1.8;
+    }
+
+    .wrapper-profile p {
+        text-align: left;
+    }
+
+    .grid-portfolio{
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .single-project-text {
+        padding: 0 3%;
+    }
+    .single-project-text p {
+        margin: 0 2%;
+    }
+
+    .single-project-portfolio > img {
+        height: 250px;
+    }
+
+    .github-button {
+
+        width: 12%;
+
+    }
+
+    .wrapper-footer {
+        width: 70%;
+    }
+
+    .footer-link-three {
+        display: inline-block;
+    }
+
+    .footer-link-one {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+    header {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-button h3 {
+        padding: 10px 20px;
+    }
+
+    .nav-button:last-of-type {
+        margin-right: 0;
+    }
+
+    .wrapper-nav-buttons {
+        width: 650px;
+        justify-content: flex-end;
+
+    }
+
+    img#picture-profile {
+        margin-left: 30px;
+    }
+
+
+    #picture-profile {
+        flex: 1
+    }
+
+    .wrapper-profile div {
+        flex: 1.8;
+    }
+
+    .wrapper-profile p {
+        font-size: 1.3rem;
+        line-height: 2.2rem;
+    }
+    .wrapper-profile img {
+        margin-left: 50px;
+    }
+
+    .grid-portfolio{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .single-project-text p {
+        font-size: 1.1rem;
+    }
+
+    
+
+    .wrapper-profile, .wrapper-portfolio, .wrapper-sub-footer {
+        width: 80%;
+    }
+
+    .wrapper-footer {
+        width: 50%;
+    }
+}
